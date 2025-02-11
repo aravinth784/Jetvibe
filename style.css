@@ -585,7 +585,6 @@ footer {
     nav a {
         font-size: 18px;
         padding: 8px 12px;
-        position: absolute;
         text-align: center;
     }
     .quote {
@@ -655,9 +654,6 @@ footer {
 @media screen and (max-width: 480px) {
     html, body {
         overflow-x: hidden;
-    }
-    nav{
-        po
     }
 
     /* Adjust badge size and position for mobile */
