@@ -410,7 +410,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #FFD700;
+    color: #FFD700;  /* Gold color */
     font-size: 20px;
     text-decoration: none;
     font-weight: bold;
@@ -425,13 +425,10 @@ footer {
 }
 
 .email-link:hover {
-    color: #ffcc00;
+    color: #ffcc00;  /* Slightly lighter gold */
     transform: scale(1.1);
 }
 
-.email-link img:hover {
-    transform: rotate(10deg) scale(1.1);
-}
 
 
 /* Call Button Styling */
@@ -676,10 +673,22 @@ footer {
         background: rgba(0, 0, 0, 0.7);
         color: white;
         padding: 10px;
-        font-size: 9px;
+        font-size: 8px;
         opacity: 0;
         transition: opacity 0.5s ease-in-out;
+        text-align: center;
+    
+        white-space: normal;  /* Ensures text wraps */
+        word-wrap: break-word; /* Forces long words to wrap */
+        overflow: hidden;  /* Prevents overflow */
+        text-overflow: ellipsis; /* Adds "..." if needed */
     }
+    .place .description {
+        max-height: fit-content;
+        min-height: 40px; /* Adjust as needed */
+    }
+    
+    
     .quote {
         font-size: 20px;         /* Smaller font size */
         text-align: center;
