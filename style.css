@@ -585,6 +585,8 @@ footer {
     nav a {
         font-size: 18px;
         padding: 8px 12px;
+        position: absolute;
+        text-align: center;
     }
     .quote {
         font-size: 24px;
@@ -654,6 +656,9 @@ footer {
     html, body {
         overflow-x: hidden;
     }
+    nav{
+        po
+    }
 
     /* Adjust badge size and position for mobile */
     .badge-left, .badge-right {
@@ -661,7 +666,7 @@ footer {
         height: 80px;        /* Smaller height */
         font-size: 14px;      /* Smaller font size */
         top: 500px;           /* Adjusted position */
-        left: 300px;           /* Adjusted for mobile left margin */
+        left: 250px;           /* Adjusted for mobile left margin */
         right: 200px;          /* Adjusted for mobile right margin */
         padding: 10px;        /* Adjusted padding */
         text-align: center;   /* Center the text */
