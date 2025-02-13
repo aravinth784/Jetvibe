@@ -406,7 +406,7 @@ footer {
 .instagram-link img:hover {
     transform: rotate(10deg) scale(1.1);
 }
-.email-link {
+.email-link a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -701,7 +701,7 @@ footer {
     }
     .bus-gallery {
         left: 5px;
-        width: 100%;               /* Full width on small screens */
+        width: 345px;               /* Full width on small screens */
         height: 500px;              /* Allow height to adjust automatically */
         max-width: 100%;           /* Ensure the max-width is 100% */
         margin: 10px auto;         /* Add margin for spacing */
